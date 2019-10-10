@@ -1,0 +1,25 @@
+const DATABASE_NAME = 'express_practice';
+const USERNAME = 'root';
+const PASSWORD = '';
+const HOST = 'localhost';
+const DIALECT = 'mysql';
+
+const SECRET = "iamagoodboy";
+const REFRESHTOKENSECRET = "112233aadadsa44789sdasd4d45d4d4as5das5";
+const PORT = 3005;
+const TOKENLIFE = 900;
+const REFRESHTOKENLIFE = 86400;
+
+
+module.exports = {
+    DATABASE_NAME: DATABASE_NAME,
+    USERNAME: USERNAME,
+    PASSWORD: PASSWORD,
+    HOST: HOST,
+    DIALECT: DIALECT,
+    SECRET: SECRET,
+    REFRESHTOKENSECRET: REFRESHTOKENSECRET,
+    PORT: PORT,
+    TOKENLIFE: TOKENLIFE,
+    REFRESHTOKENLIFE: REFRESHTOKENLIFE,
+}
